@@ -1,0 +1,37 @@
+body{ /* this will have total 4 flex items all in columns*/
+    display: flex;
+    justify-content: center;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+}
+img{ /* resize image*/
+    width: 400px;
+    height: auto;
+}
+/* para is text part on the left side*/
+.para .title{
+    font-weight: 900;
+    font-size: x-large;
+}
+.para .text{
+    font-size: x-small;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+ul{
+    display: flex;
+    gap:20px
+}
+.top-content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    flex:1;
+}
