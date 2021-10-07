@@ -1,37 +1,52 @@
-body{ /* this will have total 4 flex items all in columns*/
-    display: flex;
-    justify-content: center;
+body{
+    display: flexbox;
+    flex-direction: column;
+    background-color: grey;
 }
 .one{
+    background: chartreuse;
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
-}
-img{ /* resize image*/
-    width: 400px;
-    height: auto;
-}
-/* para is text part on the left side*/
-.para .title{
-    font-weight: 900;
-    font-size: x-large;
-}
-.para .text{
-    font-size: x-small;
-}
+    }
+/*header part*/
 .header{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background: peachpuff;
     flex: 1;
 }
 ul{
     display: flex;
-    gap:20px
+    background-color: brown;
+    gap: 20px;
 }
-.top-content{
+/*content part*/
+.content{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
     align-items: flex-start;
-    gap: 50px;
-    flex:1;
+    justify-content:center;
+    gap: 130px;
+    background-color:pink ;
+    margin-left: auto;
+    margin-right: auto;
+    width :930px;
+    }
+img{
+    width: 400px;
+    height: auto;
+    }
+.text{
+    font-size: x-large;
+}
+.text p{
+    font-size: 16px;
+}
+button{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
 }
