@@ -2,7 +2,7 @@ body{
     display: flexbox;
     flex-direction: column;
     background-color: grey;
-}
+    }
 .one{
     background: chartreuse;
     display: flex;
@@ -36,7 +36,7 @@ ul{
     }
 img{
     width: 400px;
-    height: auto;
+    height: 150px;
     }
 .text{
     font-size: x-large;
@@ -50,6 +50,7 @@ button{
     align-items: center;
     justify-content: center;
 }
+
 
 .two{
     display: flex;
@@ -80,6 +81,8 @@ button{
         height:100px;
         width: 150px;
     }
+    
+    
     .three{
         display: flex;
         flex-direction: column;
@@ -97,4 +100,27 @@ button{
     width :930px;
     font-size: x-large;
     justify-content: center;
+    }
+
+
+    .four{
+        display: flex;
+        background-color: crimson;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        
+    }
+    .four-text{
+        font-size: x-large;
+    }
+    .four-text div{
+        font-size: x-small;
+    }
+
+    
+    .main-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
