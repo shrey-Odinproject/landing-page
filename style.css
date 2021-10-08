@@ -50,6 +50,7 @@ button{
     align-items: center;
     justify-content: center;
 }
+
 .two{
     display: flex;
     background-color: aquamarine;
@@ -72,10 +73,28 @@ button{
       flex-flow: row wrap;
       justify-content: center;
     }
-    .text{
+    .card1 .text,.card2 .text,.card3 .text,.card4 .text{
         font-size: xx-small;
     }
     .cards img{
         height:100px;
         width: 150px;
+    }
+    .three{
+        display: flex;
+        flex-direction: column;
+        background-color: cornflowerblue;
+    }
+    .three-footer{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 350px;
+    }
+    .three-text{
+        display: flex;
+        margin-left: auto;
+    margin-right: auto;
+    width :930px;
+    font-size: x-large;
+    justify-content: center;
     }
