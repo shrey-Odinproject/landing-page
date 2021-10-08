@@ -1,26 +1,32 @@
 body{
-    display: flexbox;
-    flex-direction: column;
-    background-color: grey;
-    }
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    
+}
 .one{
-    background: chartreuse;
+    background:#1f2937;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    height: 300px;
     }
 /*header part*/
 .header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: peachpuff;
-    flex: 1;
+    /*background: peachpuff;*/
+    color: white;
+    font-size: 24px;
 }
 ul{
     display: flex;
-    background-color: brown;
+    /*background-color: brown;*/
     gap: 20px;
+    list-style-type: none;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 /*content part*/
 .content{
@@ -29,44 +35,56 @@ ul{
     align-items: flex-start;
     justify-content:center;
     gap: 130px;
-    background-color:pink ;
+    /*background-color:pink ;*/
     margin-left: auto;
     margin-right: auto;
     width :930px;
+    margin-bottom: 30px;
     }
 img{
     width: 400px;
-    height: 150px;
+    height: 170px;
     }
 .text{
-    font-size: x-large;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
 }
 .text p{
     font-size: 16px;
+    font-weight: normal;
 }
 button{
     display: flex;
     padding: 5px;
     align-items: center;
     justify-content: center;
+    color: white;
+    background-color: #3882f6;
 }
 
 
 .two{
     display: flex;
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     flex-direction: column;
+    height: 200px;
+    gap: 40px;
+    margin-bottom: 30px;
 }
 .two-header{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 32px;
+    font-weight: bold;
 }
 .cards{
     display: flex;
     justify-content: center;
     gap: 52px;
-    background-color: cadetblue;
+    /*background-color: purple;*/
+    
     }
   .card1,.card2,.card3,.card4{
       width: 200px;
@@ -76,6 +94,7 @@ button{
     }
     .card1 .text,.card2 .text,.card3 .text,.card4 .text{
         font-size: xx-small;
+        color: gray;
     }
     .cards img{
         height:100px;
@@ -86,7 +105,10 @@ button{
     .three{
         display: flex;
         flex-direction: column;
-        background-color: cornflowerblue;
+        background-color: #e5e7eb;
+        height: 200px;
+        padding: 30px;
+        
     }
     .three-footer{
         display: flex;
@@ -100,22 +122,36 @@ button{
     width :930px;
     font-size: x-large;
     justify-content: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
     }
 
 
     .four{
         display: flex;
-        background-color: crimson;
         justify-content: center;
         align-items: center;
-        gap: 50px;
-        
-    }
+       margin-left: auto;
+       margin-right: auto;
+        height: 200px;
+        width: 1300px;
+        }
+        .bluebox{
+            background-color: #3882f6;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            height: 100px;
+            gap: 100px;
+            display: flex;
+        }
     .four-text{
-        font-size: x-large;
+        font-size: 24px;
+        color: #e5e7eb;
     }
     .four-text div{
-        font-size: x-small;
+        font-size: 12px;
     }
 
     
@@ -123,4 +159,7 @@ button{
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: #1f2937;
+        color: #e5e7eb;
+        
     }
