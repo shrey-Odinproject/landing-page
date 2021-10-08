@@ -50,3 +50,32 @@ button{
     align-items: center;
     justify-content: center;
 }
+.two{
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: column;
+}
+.two-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    background-color: cadetblue;
+    }
+  .card1,.card2,.card3,.card4{
+      width: 200px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+    .text{
+        font-size: xx-small;
+    }
+    .cards img{
+        height:100px;
+        width: 150px;
+    }
